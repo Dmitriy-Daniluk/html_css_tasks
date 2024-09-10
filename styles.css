@@ -42,38 +42,53 @@ td {
 /* Задача 34 */
 /* Задача 34 #1*/
 
-h1 {
+/* h1 {
 	text-align: right;
-}
+} */
 
 /* Задача 34 #2*/
-h2 {
-	text-align: center;
+/* h2 {
+	text-align: center; */
 	
 	/* Задача 34 #8*/
-	width: 300px;
-}
+	/* width: 300px;
+} */
 
 /* Задача 34 #3*/
-table {
-	width: 500px;
-}
+/* table { */
+	/* width: 500px; */
+/* } */
 
 /* Задача 34 #4*/
-th {
-	text-align: left;
-}
+/* th { */
+	/* text-align: left; */
+/* } */
 
 /* Задача 34 #5*/
-td {
-	text-align: center;
-}
+/* td { */
+	/* text-align: center; */
+/* } */
 
 /* Задача 34 #6*/
-p {
-	width: 300px;
-	
+/* p { */
+	/* width: 300px; */
+
 	/* Задача 34 #7*/
-	text-align: justify;
+	/* text-align: justify; */
+/* } */
+
+/* Задача 35 */
+
+table {
+	width: 500px;
+	height: 300px;
 }
 
+td {
+	text-align: center;
+	font-weight: bold;
+}
+
+th {
+	font-weight: normal;
+}

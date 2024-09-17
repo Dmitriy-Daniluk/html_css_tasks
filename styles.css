@@ -256,6 +256,21 @@ p i {
 
 /* Задача 54 #1 */
 
-li > b {
+/* li > b {
+	color: red;
+} */
+
+/* Задача 55 #1 */
+
+.odd {
+	color: red;
+}
+.eve {
+	color: green;
+}
+
+/* Задача 55 #2 */
+
+.eee {
 	color: red;
 }

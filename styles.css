@@ -369,3 +369,18 @@ p i {
 .eee .bbb .kkk {
 	color: red;
 }
+
+/* Задача 62 #1 #2 #3 #4 #5 */
+
+p.bbb {
+	color: red;
+}
+p .bbb {
+	color: red;
+}
+.eee p.bbb {
+	color: red;
+}
+.eee p .bbb {
+	color: red;
+}

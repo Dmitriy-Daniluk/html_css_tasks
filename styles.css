@@ -129,8 +129,14 @@ p {
 } */
 
 /* Задача 40 */
-
+/* 
 p {
 	font-size: 30px;
 	line-height: 0.5;
+} */
+
+/* Задача 41 */
+
+p {
+	font: 13px / 20px "Times New Roman";
 }

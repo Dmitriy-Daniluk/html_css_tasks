@@ -240,12 +240,16 @@ h3 {
 
 /* Задача 53 #1 */
 
-ul i {
+/* ul i {
 	color: red;
 }
 
 p i {
 	color: green;
-}
+} */
 
 /* Задача 53 #2 */
+
+p b i {
+	color: red;
+}

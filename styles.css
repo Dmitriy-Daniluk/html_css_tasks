@@ -384,3 +384,28 @@ p .bbb {
 .eee p .bbb {
 	color: red;
 }
+
+/* Задача 63 */
+
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.task63-1 {
+	color: red;
+}
+.task63-2 {
+	font-size: 22px;
+}
+.task63-3 {
+	font-weight: bold;
+}

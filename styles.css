@@ -230,10 +230,22 @@ h3 {
 	color: red;
 } */
 
-h1, h2, h3 {
+/* h1, h2, h3 {
 	text-align: center;
 	color: red;
 }
 h3 {
 	font-size: 16px;
+} */
+
+/* Задача 53 #1 */
+
+ul i {
+	color: red;
 }
+
+p i {
+	color: green;
+}
+
+/* Задача 53 #2 */

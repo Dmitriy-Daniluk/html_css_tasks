@@ -185,7 +185,7 @@ p {
 } */
 
 /* Задача 48 */
-
+/* 
 h1 {
 	width: 500px;
 	text-align: center;
@@ -208,4 +208,10 @@ p {
 	line-height: 25px;
 	font-family: Arial;
 	text-indent: 40px;
+} */
+
+/* Задача 51 */
+
+h1, h2, h3 {
+	text-align: center;
 }

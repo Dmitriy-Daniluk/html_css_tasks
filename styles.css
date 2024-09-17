@@ -172,7 +172,14 @@ p {
 
 /* Задача 46 */
 
-p {
+/* p {
 	text-decoration: line-through;
 	color: green;
+} */
+
+/* Задача 47 */
+
+a {
+	text-decoration: none;
+	color: red;
 }

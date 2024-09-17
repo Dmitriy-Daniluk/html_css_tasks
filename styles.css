@@ -330,3 +330,42 @@ p i {
 .ggg {
 	font-size: 35px;
 }
+
+/* Задача 59 #1 */
+
+.header {
+	color: red;
+}
+.header > h2 {
+	font-size: 40px;
+}
+.header > h3 {
+	font-size: 30px;
+}
+
+/* Задача 60 */
+
+.eee i {
+	color: red;
+}
+
+/* Задача 61 #1 #2 #3 #4 #5 */
+
+.eee .bbb {
+	color: red;
+}
+.eee h2 {
+	color: red;
+}
+.eee h2.bbb {
+	color: red;
+}
+.eee h3.bbb {
+	color: red;
+}
+.eee p.bbb {
+	color: red;
+}
+.eee .bbb .kkk {
+	color: red;
+}

@@ -157,15 +157,22 @@ p {
 	text-indent: 50px;
 } */
 
-/* Задача 43 */
+/* Задача 44 */
 
 /* p {
 	text-decoration: underline;
 } */
 
-/* Задача 44 */
+/* Задача 45 */
 
-p {
+/* p {
 	text-decoration: overline;
 	color: red;
+} */
+
+/* Задача 46 */
+
+p {
+	text-decoration: line-through;
+	color: green;
 }

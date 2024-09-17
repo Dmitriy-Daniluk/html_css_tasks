@@ -147,7 +147,12 @@ p {
 	font: bold 40px Arial;
 } */
 /* #4 */
-p {
+/* p {
 	font: italic bold 40px / 60px Arial;
+	text-indent: 50px;
+} */
+
+/* Задача 42 */
+p {
 	text-indent: 50px;
 }

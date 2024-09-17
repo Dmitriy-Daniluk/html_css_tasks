@@ -277,6 +277,27 @@ p i {
 
 /* Задача 56 */
 
-.xxx {
+/* .xxx {
 	font-size: 30px;
+} */
+
+/* Задача 57 #1 */
+
+.task57-first {
+	color: red;
+}
+.task57-second {
+	color: green;
+}
+.task57-third {
+	color: aqua;
+}
+
+/* Задача 57 #1 */
+
+.task57-one {
+	color: red;
+}
+.task57-two {
+	color: green;
 }

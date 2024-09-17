@@ -153,6 +153,12 @@ p {
 } */
 
 /* Задача 42 */
-p {
+/* p {
 	text-indent: 50px;
+} */
+
+/* Задача 43 */
+
+p {
+	text-decoration: underline;
 }

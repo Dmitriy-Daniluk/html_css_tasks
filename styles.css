@@ -159,6 +159,13 @@ p {
 
 /* Задача 43 */
 
-p {
+/* p {
 	text-decoration: underline;
+} */
+
+/* Задача 44 */
+
+p {
+	text-decoration: overline;
+	color: red;
 }

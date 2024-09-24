@@ -550,3 +550,62 @@ p .bbb {
 		text-align: center;
 	}
 }
+
+
+.task72 {
+	div > p {
+		color: red;
+	}
+	div h2 {
+		color: green;
+	}
+	#block p {
+		color: brown;
+	}
+	#block h2 {
+		color: aqua;
+	}
+	.bbb {
+		color: blueviolet;
+	}
+	#block .bbb {
+		color: yellow;
+	}
+	p.bbb {
+		color: violet;
+	}
+	h2.bbb {
+		font-size: 30px;
+	}
+	#block p.bbb {
+		font-size: 7px;
+		color: red;
+	}
+	.bbb, .xxx {
+		text-align: center;
+		color: blue;
+	}
+	p.bbb, h2.xxx {
+		color: burlywood;
+	}
+	#block p.bbb, #block p.xxx {
+		text-align: right;
+	}
+	.fff {
+		font-size: 40px;
+		color: green;
+	}
+	.fff p {
+		color: red;
+	}
+	p.fff {
+		color: gold;
+	}
+	.fff .bbb {
+		color: pink;
+	}
+	.fff h2.bbb {
+		text-align: center;
+		font-size: 10px;
+	}
+}

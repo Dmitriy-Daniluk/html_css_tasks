@@ -431,3 +431,18 @@ p .bbb {
 		font-size: 30px;
 	}
 }
+
+.task66 {
+	#elem > h2 {
+		color: red;
+	}
+	#elem .text {
+		color: green;
+	}
+	#elem p.text {
+		color: aqua;
+	}
+	#elem li.text {
+		color: brown;
+	}
+}

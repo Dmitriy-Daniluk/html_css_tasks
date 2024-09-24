@@ -446,3 +446,9 @@ p .bbb {
 		color: brown;
 	}
 }
+
+.task67 {
+	.eee.zzz.ccc {
+		color: red;
+	}
+}

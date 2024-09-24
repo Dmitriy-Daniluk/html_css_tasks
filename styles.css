@@ -409,3 +409,16 @@ p .bbb {
 .task63-3 {
 	font-weight: bold;
 }
+
+.task64 {
+	#elem1 {
+		color: red;
+	}
+	#elem2 {
+		color: green;
+	}
+	#elem3 {
+		color: aqua;
+	}
+
+}

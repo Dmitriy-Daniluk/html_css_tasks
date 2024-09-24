@@ -629,3 +629,12 @@ p .bbb {
 		color: red;
 	}
 }
+
+.task75 {
+	#elem + li {
+		color: red;
+	}
+	.elem + li {
+		color: green;
+	}
+}

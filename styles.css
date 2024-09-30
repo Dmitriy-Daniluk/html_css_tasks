@@ -731,3 +731,52 @@ p .bbb {
 		text-decoration: none;
 	}
 }
+
+.task87 {
+	.one li:first-child {
+		color: red;
+	}
+	.two li:last-child {
+		color: green;
+	}
+	.three li:first-child {
+		color: red;
+	}
+	.three li:last-child {
+		color: green;
+	}
+	.four li:nth-child(3) {
+		color: red;
+	}
+	.five li:nth-child(even) {
+		color: green;
+	}
+	.five li:nth-last-child(odd) {
+		color: red;
+	}
+	.six li:nth-child(3n) {
+		color: red;
+	}
+	.seven li:nth-last-child(2) {
+		color: red;
+	}
+	.eight li:only-child {
+		color: red;
+	}
+	.eight ul {
+		margin-bottom: 10px;
+	}
+	.nine li {
+		border: 1px solid red;
+		list-style-type: circle;
+		color: red;
+		width: 100px;
+		margin-bottom: 5px;
+	}
+	.nine li:empty {
+		border: 1px solid blue;
+		list-style-type: circle;
+		color: blue;
+		width: 100px;
+	}
+}

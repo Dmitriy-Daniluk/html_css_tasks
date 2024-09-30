@@ -638,3 +638,9 @@ p .bbb {
 		color: green;
 	}
 }
+
+.task78 {
+	#elem ~ li {
+		color: red;
+	}
+}

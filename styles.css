@@ -780,3 +780,21 @@ p .bbb {
 		width: 100px;
 	}
 }
+
+.task88 {
+	.first p:first-of-type {
+		color: red;
+	}
+	.first span:last-of-type {
+		color: green;
+	}
+	.second p:nth-of-type(2) {
+		color: red;
+	}
+	.second span:nth-last-of-type(1) {
+		color: green;
+	}
+	.three h2:only-of-type {
+		color: red;
+	}
+}

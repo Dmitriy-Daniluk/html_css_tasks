@@ -644,3 +644,9 @@ p .bbb {
 		color: red;
 	}
 }
+
+.task79 {
+	main * p{
+		color: red;
+	}
+}

@@ -701,3 +701,12 @@ p .bbb {
 		text-decoration: underline;
 	}
 }
+
+.task85 {
+	#test a {
+		color: red;
+	}
+	#test_85 a:hover {
+		text-decoration: none;
+	}
+}

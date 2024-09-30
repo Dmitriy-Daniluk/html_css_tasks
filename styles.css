@@ -650,3 +650,27 @@ p .bbb {
 		color: red;
 	}
 }
+
+.task80 {
+	[title] {
+		color: red;
+	}
+	p[title] {
+		color: rgb(124, 114, 36);
+	}
+	p[title="hello"] {
+		color: green;
+	}
+	a[href^="http://"] {
+		color: yellow;
+	}
+	a[href$=".html"] {
+		color: gray;
+	}
+	p[title*="hello"] {
+		color: aqua;
+	}
+	p[class^="top-"] {
+		color: pink;
+	}
+}

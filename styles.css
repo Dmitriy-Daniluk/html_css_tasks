@@ -690,3 +690,14 @@ p .bbb {
 		color: black;
 	}
 }
+
+.task84 {
+	a {
+		color: aqua;
+		text-decoration: none;
+	}
+	a:hover{
+		color: red;
+		text-decoration: underline;
+	}
+}

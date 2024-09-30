@@ -798,3 +798,15 @@ p .bbb {
 		color: red;
 	}
 }
+
+.task89 {
+	.first li:not(.elem) {
+		color: red;
+	}
+	.second li:not(:first-child){
+		color: red;
+	}
+	.three li:not(:first-child, :last-child){
+		color: red;
+	}
+}

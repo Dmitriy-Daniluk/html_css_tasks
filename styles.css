@@ -710,3 +710,24 @@ p .bbb {
 		text-decoration: none;
 	}
 }
+
+.task86 {
+	a.zzz86 {
+		color: red;
+	}
+	a.zzz86:hover {
+		text-decoration: none;
+	}
+	#block a.zzz86_2{
+		color: red;
+	}
+	#block a.zzz86_2:hover {
+		text-decoration: none;
+	}
+	.block a.zzz86_3 {
+		color: red;
+	}
+	.block a.zzz86_3:hover {
+		text-decoration: none;
+	}
+}

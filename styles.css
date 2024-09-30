@@ -674,3 +674,19 @@ p .bbb {
 		color: pink;
 	}
 }
+
+.task82 {
+	a:link {
+		color: aqua;
+	}
+	a:visited {
+		color: green;
+	}
+	a:hover {
+		text-decoration: none;
+		color: red;
+	}
+	a:active {
+		color: black;
+	}
+}

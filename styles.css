@@ -879,3 +879,11 @@ p .bbb {
 		border-color: blue;
 	}
 }
+
+.task97 {
+	#elem {
+		width: 300px;
+		height: 200px;
+		border: 1px solid red;
+	}
+}

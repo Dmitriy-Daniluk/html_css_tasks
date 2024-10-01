@@ -1077,3 +1077,9 @@ p .bbb {
 		list-style-type: lower-greek;
 	}
 }
+
+.task122 {
+	ol {
+		list-style-type: decimal-leading-zero;
+	}
+}

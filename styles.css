@@ -994,6 +994,25 @@ p .bbb {
 	}
 }
 
-body {
-  background-image: url(./bg.png);
+.task108 {
+	div {
+		width: 400px;
+		height: 400px;
+		border: 1px solid red;
+		background-image: url(./bg.png);
+	}
+}
+.task109 {
+	div {
+		width: 400px;
+		height: 400px;
+		border: 1px solid red;
+		background-image: url(./bg.png);
+	}
+	.one {
+		background-repeat: repeat-y;
+	}
+	.two {
+		background-repeat: repeat-x;
+	}
 }

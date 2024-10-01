@@ -829,3 +829,13 @@ p .bbb {
 		}
 	}
 }
+
+.task92 {
+	#elem {
+		border-width: 5px;
+		border-style: solid;
+		border-color: blue;
+		width: 300px;
+		height: 100px;
+	}
+}

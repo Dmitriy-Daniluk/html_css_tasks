@@ -839,3 +839,13 @@ p .bbb {
 		height: 100px;
 	}
 }
+
+.task93 {
+	#elem {
+		width: 300px;
+		height: 200px;
+		border-width: 5px;
+		border-style: dotted;
+		border-color: red;
+	}
+}

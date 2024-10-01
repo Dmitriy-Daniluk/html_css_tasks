@@ -1041,3 +1041,15 @@ p .bbb {
 		list-style-type: circle;
 	}
 }
+
+.task113 {
+	ul {
+		list-style-type: none;
+	}
+}
+
+.task117 {
+	ol {
+		list-style-type: lower-roman;
+	}
+}

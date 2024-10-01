@@ -1065,3 +1065,9 @@ p .bbb {
 		list-style-type: lower-alpha;
 	}
 }
+
+.task120 {
+	ol {
+		list-style-type: upper-alpha;
+	}
+}

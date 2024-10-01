@@ -849,3 +849,13 @@ p .bbb {
 		border-color: red;
 	}
 }
+
+.task94 {
+	#elem {
+		width: 300px;
+		height: 200px;
+		border-width: 2px;
+		border-style: dashed;
+		border-color: orange;
+	}
+}

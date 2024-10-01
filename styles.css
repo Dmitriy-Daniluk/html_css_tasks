@@ -295,16 +295,16 @@ p i {
 
 /* Задача 57 #1 */
 
-.task57-one {
+/* .task57-one {
 	color: red;
 }
 .task57-two {
 	color: green;
-}
+} */
 
 /* Задача 58 #1 */
 
-.eee, .zzz {
+/* .eee, .zzz {
 	line-height: 1.5;
 	font-family: Arial;
 }
@@ -313,11 +313,11 @@ p i {
 }
 .zzz {
 	font-size: 30px;
-}
+} */
 
 /* Задача 58 #2 */
 
-.eee, .zzz, .ggg {
+/* .eee, .zzz, .ggg {
 	text-align: center;
 	font-family: Arial;
 }
@@ -329,11 +329,11 @@ p i {
 }
 .ggg {
 	font-size: 35px;
-}
+} */
 
 /* Задача 59 #1 */
 
-.header {
+/* .header {
 	color: red;
 }
 .header > h2 {
@@ -341,17 +341,17 @@ p i {
 }
 .header > h3 {
 	font-size: 30px;
-}
+} */
 
 /* Задача 60 */
 
-.eee i {
+/* .eee i {
 	color: red;
-}
+} */
 
 /* Задача 61 #1 #2 #3 #4 #5 */
 
-.eee .bbb {
+/* .eee .bbb {
 	color: red;
 }
 .eee h2 {
@@ -368,11 +368,11 @@ p i {
 }
 .eee .bbb .kkk {
 	color: red;
-}
+} */
 
 /* Задача 62 #1 #2 #3 #4 #5 */
 
-p.bbb {
+/* p.bbb {
 	color: red;
 }
 p .bbb {
@@ -383,7 +383,7 @@ p .bbb {
 }
 .eee p .bbb {
 	color: red;
-}
+} */
 
 /* Задача 63 */
 
@@ -809,4 +809,11 @@ p .bbb {
 	.three li:not(:first-child, :last-child){
 		color: red;
 	}
+}
+
+#task90 {
+	width: 300px;
+	height: 100px;
+	color: white;
+	background-color: orange;
 }

@@ -921,3 +921,12 @@ p .bbb {
 		border-right: 3px dotted green;
 	}
 }
+
+.task99 {
+	#elem {
+		width: 200px;
+		height: 200px;
+		border: 1px solid green;
+		border-radius: 30px;
+	}
+}

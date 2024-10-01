@@ -1035,3 +1035,9 @@ p .bbb {
 		list-style-type: square;
 	}
 }
+
+.task112 {
+	ul {
+		list-style-type: circle;
+	}
+}

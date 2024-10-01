@@ -984,3 +984,12 @@ p .bbb {
 		border-radius: 10%;
 	}
 }
+
+.task107 {
+	#elem {
+		width: 100px;
+		height: 100px;
+		border: 1px solid green;
+		border-radius: 100px;
+	}
+}

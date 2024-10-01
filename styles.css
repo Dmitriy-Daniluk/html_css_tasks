@@ -859,3 +859,13 @@ p .bbb {
 		border-color: orange;
 	}
 }
+
+.task95 {
+	#elem {
+		border-width: 3px;
+		border-style: ridge;
+		border-color: black;
+		width: 300px;
+		height: 100px;
+	}
+}

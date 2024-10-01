@@ -812,8 +812,20 @@ p .bbb {
 }
 
 #task90 {
-	width: 300px;
-	height: 100px;
-	color: white;
-	background-color: orange;
+	.one {
+		width: 300px;
+		height: 300px;
+		color: white;
+		background-color: blue;
+	}
+	.two {
+		width: 300px;
+		height: 300px;
+		color: white;
+		background-color: #4dee99;
+		p {
+			text-align: center;
+			font-size: 30px;
+		}
+	}
 }

@@ -1016,3 +1016,16 @@ p .bbb {
 		background-repeat: repeat-x;
 	}
 }
+
+.task110 {
+	background-image: url(./bg.png);
+	width: 600px;
+	height: 600px;
+	border: 1px solid red;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 100% 40%;
+	background-attachment: fixed;
+	background-clip: border-box;
+  background-origin: border-box;
+}

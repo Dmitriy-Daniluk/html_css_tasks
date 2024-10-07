@@ -247,5 +247,30 @@
 		display: inline-block;
 		margin: 0 5px;
 	}
-
+}
+.task-162 {
+	.parent {
+		padding: 10px 0;
+		border: 1px solid red;
+		text-align: right;
+		padding-right: 10px;
+	}
+	.child {
+		padding: 10px;
+		border: 1px solid green;
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.parent4 {
+		padding: 10px 0;
+		border: 1px solid red;
+		text-align: right;
+	}
+	.child4 {
+		width: 100px;
+		padding: 10px;
+		border: 1px solid green;
+		display: inline-block;
+		text-align: center;
+	}
 }

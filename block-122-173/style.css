@@ -184,3 +184,11 @@
 		display: block;
 	}
 }
+.task-152 {
+	div {
+		width: 100px;
+		height: 100px;
+		border: 1px solid red;
+		display: inline-block;
+	}
+}

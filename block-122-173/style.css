@@ -304,3 +304,18 @@
 		border: 1px solid green;
 	}
 }
+.task-172 {
+	.parent {
+		display: flex;
+		justify-content: space-around;
+		width: 1000px;
+		height: 200px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+}

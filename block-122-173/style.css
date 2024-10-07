@@ -221,5 +221,17 @@
 		border: 1px solid red;
 		text-align: center;
 	}
-
+}
+.task-159 {
+	.parent {
+		padding: 10px 0;
+		border: 1px solid red;
+		text-align: right;
+	}
+	.parent2 {
+		padding: 10px 0;
+		padding-right: 50px;
+		border: 1px solid red;
+		text-align: right;
+	}
 }

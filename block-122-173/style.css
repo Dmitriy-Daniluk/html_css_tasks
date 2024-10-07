@@ -215,3 +215,11 @@
 		margin: 10px auto;
 	}
 }
+.task-158 {
+	.parent {
+		padding: 10px 0;
+		border: 1px solid red;
+		text-align: center;
+	}
+
+}

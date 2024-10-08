@@ -82,3 +82,40 @@
 		}
 	}
 }
+.task175 {
+	.block{
+		width: 400px;
+		height: 400px;
+		border: 1px solid red;
+		position: relative;
+	}
+	.block1 {
+		#elem1 {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 20px;
+			background-color: #FF8888;
+			position: relative;
+			top: 80px;
+			left: 40px;
+		}
+		#elem2 {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 20px;
+			background-color: #7E89EB;
+			position: relative;
+			top: 40px;
+			left: 80px;
+		}
+		#elem3 {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 20px;
+			background-color: #4DEE99;
+			position: relative;
+			left: 120px;
+			top: 0;
+		}
+	}
+}

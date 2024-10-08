@@ -1,0 +1,84 @@
+.task-174 {
+	.block{
+		width: 400px;
+		height: 400px;
+		border: 1px solid red;
+		position: relative;
+	}
+	.elem {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+	}
+	.block1 {
+		#elem1 {
+			border: 1px solid red;
+			top: 50px;
+			left: 50px;
+		}
+		#elem2 {
+			border: 1px solid blue;
+			top: 150px;
+			left: 150px;
+		}
+		#elem3 {
+			border: 1px solid green;
+			top: 300px;
+			left: 300px;
+		}
+	}
+	.block2 {
+		#elem1 {
+			border: 1px solid red;
+			top: 50px;
+			left: 50px;
+		}
+		#elem2 {
+			border: 1px solid blue;
+			top: 50px;
+			left: 150px;
+		}
+		#elem3 {
+			border: 1px solid green;
+			top: 50px;
+			left: 250px;
+		}
+	}
+	.block3 {
+		#elem1 {
+			border: 1px solid red;
+			top: 50px;
+			left: 50px;
+		}
+		#elem2 {
+			border: 1px solid blue;
+			top: 80px;
+			left: 80px;
+		}
+		#elem3 {
+			border: 1px solid green;
+			top: 110px;
+			left: 110px;
+		}
+	}
+	.block4 {
+		#elem1 {
+			border: 1px solid red;
+			background-color: red;
+			top: 50px;
+			left: 50px;
+		}
+		#elem2 {
+			border: 1px solid blue;
+			background-color: blue;
+			top: 80px;
+			left: 80px;
+		}
+		#elem3 {
+			border: 1px solid green;
+			background-color: green;
+			top: 110px;
+			left: 110px;
+		}
+	}
+}

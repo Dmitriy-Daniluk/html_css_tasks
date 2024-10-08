@@ -306,3 +306,25 @@
 		}
 	}
 }
+.task179 {
+	.block {
+		position: relative;
+		height: 300px;
+	}
+	#elem {
+		position: absolute;
+		top: 100px;
+		right: 100px;
+		bottom: 100px;
+		left: 100px;
+		border: 1px solid green;
+	}
+	#elem2 {
+		position: absolute;
+		top: 100px;
+		right: 200px;
+		bottom: 50px;
+		left: 10px;
+		border: 1px solid green;
+	}
+}

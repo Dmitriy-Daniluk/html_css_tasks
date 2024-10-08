@@ -471,3 +471,11 @@
 		z-index: 1;
 	}
 }
+.task186 {
+	.one {
+		float: left;
+	}
+	.two {
+		float: right;
+	}
+}

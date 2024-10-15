@@ -67,3 +67,48 @@
 		gap: 5px;
 	}
 }
+.task208 {
+	.child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.parent {
+		display: flex;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.one {
+		.parent {
+			flex-direction: column-reverse;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+	.two {
+		.parent {
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+	}
+	.three {
+		.parent {
+			flex-direction: row-reverse;
+			justify-content: flex-start;
+		}
+	}
+	.four {
+		.parent {
+			flex-direction: row-reverse;
+			justify-content: flex-end;
+		}
+	}
+	.five {
+		.parent {
+			flex-direction: column-reverse;
+			justify-content: flex-end;
+		}
+	}
+}

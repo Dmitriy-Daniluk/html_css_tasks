@@ -300,3 +300,51 @@
 		align-items: flex-end;
 	}
 }
+.task216 {
+	.child {
+		border: 1px solid green;
+	}
+	.parent {
+		display: flex;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.one .parent {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.two .parent {
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch;
+	}
+	.three .parent {
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.one .child {
+		width: 100px;
+		height: 60px;
+	}
+	.two .child {
+		width: 100px;
+	}
+	.three .child {
+		width: 100px;
+		height: 60px;
+	}
+	.one .elem {
+		align-self: flex-end;
+	}
+	.two .elem {
+		align-self: center;
+	}
+	.three .elem {
+		align-self: center;
+	}
+	
+}

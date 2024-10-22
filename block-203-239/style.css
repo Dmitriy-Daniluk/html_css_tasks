@@ -463,14 +463,12 @@ section {
 	.parent {
 		display: grid;
 		border: 1px solid orange;
+		width: 500px;
 	}
 	.child {
 		border: 1px solid purple;
 	}
 	.one .parent {
-		grid-template-columns: 200px auto
-	}
-	.two .parent {
-		grid-template-columns: 100px 150px auto;
+		grid-template-columns: repeat(auto-fill, 200px);
 	}
 }

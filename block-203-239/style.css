@@ -112,3 +112,52 @@
 		}
 	}
 }
+.task210 {
+	.child {
+		width: 120px;
+		height: 60px;
+		border: 1px solid green;
+	}
+	.parent {
+		display: flex;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.one .parent {
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+	.two .parent {
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+	.three .parent {
+		flex-direction: column-reverse;
+		justify-content: flex-end;
+		align-items: flex-start;
+	}
+	.four .parent {
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+	.five .parent {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+	.six .parent {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+	.seven .parent {
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-end;
+	}
+}

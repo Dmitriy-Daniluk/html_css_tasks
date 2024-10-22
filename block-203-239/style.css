@@ -348,3 +348,28 @@
 	}
 	
 }
+.task221 {
+	.child {
+		border: 1px solid green;
+	}
+	.parent {
+		display: flex;
+		margin: 20px auto;
+		border: 1px solid aquamarine;
+	}
+	.one .parent {
+		display: grid;
+	}
+	.two .parent {
+		display: grid;
+		grid-template-columns: repeat(2, 200px);
+	}
+	.three .parent {
+		display: grid;
+		grid-template-columns: repeat(3, 150px);
+	}
+	.four .parent {
+		display: grid;
+		grid-template-columns: 100px 150px 200px;
+	}
+}

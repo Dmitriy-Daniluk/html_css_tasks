@@ -205,3 +205,39 @@
 		align-items: center;
 	}
 }
+.task214 {
+	.child {
+		border: 1px solid green;
+	}
+	.parent {
+		display: flex;
+		width: 900px;
+		height: 400px;
+		margin: 20px auto;
+		border: 1px solid red;
+	}
+	.one .parent {
+		flex-direction: row;
+		justify-content: center;
+		align-items: stretch;
+	}
+	.two .parent {
+		flex-direction: column;
+		justify-content: center;
+		align-items: stretch;
+	}
+	.three .parent {
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+	.one .child {
+		width: 120px;
+	}
+	.two .child {
+		height: 40px;
+	}
+	.three .child {
+		height: 40px;
+	}
+}

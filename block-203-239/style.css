@@ -1,3 +1,8 @@
+section {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 3px dashed gray;
+}
 .task203 {
 	.parent {
 		display: flex;
@@ -452,5 +457,20 @@
 	}
 	.three .parent {
 		grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
+	}
+}
+.task227 {
+	.parent {
+		display: grid;
+		border: 1px solid orange;
+	}
+	.child {
+		border: 1px solid purple;
+	}
+	.one .parent {
+		grid-template-columns: 200px auto
+	}
+	.two .parent {
+		grid-template-columns: 100px 150px auto;
 	}
 }

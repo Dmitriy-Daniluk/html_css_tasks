@@ -373,3 +373,21 @@
 		grid-template-columns: 100px 150px 200px;
 	}
 }
+.task222 {
+	.parent {
+		display: grid;
+		border: 1px solid orange;
+	}
+	.child {
+		border: 1px solid purple;
+	}
+	.one .parent {
+		grid-template-columns: 1fr 1fr;
+	}
+	.two .parent {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.three .parent {
+		grid-template-columns: 1fr 1fr 2fr;
+	}
+}

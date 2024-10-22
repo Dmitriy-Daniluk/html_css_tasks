@@ -406,3 +406,18 @@
 		grid-template-columns: 1fr 1.5fr 2.5fr;
 	}
 }
+.task224 {
+	.parent {
+		display: grid;
+		border: 1px solid orange;
+	}
+	.child {
+		border: 1px solid purple;
+	}
+	.one .parent {
+		grid-template-columns: 100px 1fr 1fr;
+	}
+	.two .parent {
+		grid-template-columns: 100px 1fr 1.5fr;
+	}
+}

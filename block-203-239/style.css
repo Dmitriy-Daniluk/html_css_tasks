@@ -485,3 +485,19 @@ section {
 		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	}
 }
+.task230 {
+	.parent {
+		display: grid;
+		border: 1px solid orange;
+		width: 400px;
+	}
+	.child {
+		border: 1px solid purple;
+	}
+	.one .parent {
+		grid-template-rows: repeat(2, 100px) repeat(2, 150px) repeat(2, 200px);
+	}
+	.two .parent {
+		grid-template-rows: repeat(8, 100px);
+	}
+}

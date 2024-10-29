@@ -501,3 +501,28 @@ section {
 		grid-template-rows: repeat(8, 100px);
 	}
 }
+.task231 {
+	.parent {
+		display: grid;
+		border: 1px solid orange;
+		width: 400px;
+	}
+	.child {
+		border: 1px solid purple;
+	}
+	.one .parent {
+		grid-template: 1fr 2fr / 0.5fr 1fr 1fr 2fr;
+	}
+	.two .parent {
+		grid-template: 1fr 2fr / 2fr 1fr 1fr 2fr;
+	}
+	.three .parent {
+		grid-template: 1fr 1fr 2fr 4fr / 0.5fr 1.5fr 3fr;
+	}
+	.four .parent {
+		grid-template: 2fr 1fr 1fr / 2fr 1fr 2fr 1fr;
+	}
+	.five .parent {
+		grid-template: 2fr 1fr / repeat(2, 0.5fr) 1fr repeat(2, 2fr);
+	}
+}

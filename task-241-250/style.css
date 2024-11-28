@@ -243,3 +243,41 @@ section {
 		}
 	}
 }
+.task-246 {
+	#wrapper {
+		width: 1200px;
+		margin: 30px auto;
+		border: 1px solid black;
+	}
+	#header {
+		height: 250px;
+		padding: 20px;
+		border: 1px solid black;
+	}
+	#container {
+		display: flex;
+		gap: 30px;
+	}
+	#left {
+		width: 15%;
+		padding: 20px;
+		border: 1px solid black;
+	}
+	#content {
+		width: 60%;
+		height: 700px;
+		padding: 20px;
+		border: 1px solid black;
+	}
+	#right {
+		width: 15%;
+		margin-left: 30px;
+		padding: 20px;
+		border: 1px solid black;
+	}
+	#footer {
+		height: 100px;
+		padding: 20px;
+		border: 1px solid black;
+	}
+}
